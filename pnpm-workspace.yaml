@@ -1,0 +1,9 @@
+# pnpm workspace configuration
+# Defines packages in this monorepo
+packages:
+  # Applications
+  - 'apps/*'
+  # Shared packages
+  - 'packages/*'
+  # Infrastructure as code
+  - 'infra/*'
